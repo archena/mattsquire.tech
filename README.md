@@ -2,7 +2,7 @@
 
 In this repository is the code for my personal website, [https://mattsquire.tech](mattsquire.tech).
 
-![mattsquire.tech screenshot](https://placehold.co/600x400)
+![mattsquire.tech screenshot](screenshot.png)
 
 It's a simple and clean site for blogging and tracking projects. It's built with the Rust-based static site generator, [zola](https://getzola.org), and it uses the [Papaya](https://github.com/justint/papaya) theme.
 
