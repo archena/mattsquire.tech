@@ -4,6 +4,8 @@ path = "about"
 template = "about.html"
 +++
 
-<img src="matt-squire.jpg" alt="Matt Squire photo" class="bordered me-pic" align="right" style="margin-left: 1em; border-radius: 50%">
+I'm a programmer, CTO, and a co-founder of <a href="https://fuzzylabs.ai">Fuzzy Labs</a>, a UK tech company helping people productionise machine learning through MLOps.
 
-I'm a programmer, and co-founder and CTO of Fuzzy Labs. I like functional programming, AI, IoT, Emacs.
+I'm interested in artificial intelligence, bio-inspired computing, IoT / edge, and functional programming.
+
+<img src="matt-squire.jpg" alt="Matt Squire photo" style="border-radius: 50%; max-width: 250px">

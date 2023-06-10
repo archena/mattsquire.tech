@@ -71,7 +71,6 @@ username = ""
 
 # Footer social links; full options listed in macros/social.html
 [extra.social]
-email = "echo bWF0dEBmdXp6eWxhYnMuYWk= | base64 -d"
 github = "archena"
 linkedin = "https://www.linkedin.com/in/matt-squire-a19896125"
 

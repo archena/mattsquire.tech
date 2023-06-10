@@ -1,7 +1,28 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  Fill me in...
-</h1>
+<main id="main" class="index" tabindex="-1">
+  <section style="background: #eee; padding: 16px;">
+    {% set headshot = resize_image(path="/static/matt-squire.jpg", width=180, op="fit_width") %}
+    <img style="float: right; margin-left: 15px; margin-top: 15px; border-radius: 50%;" src="{{ headshot.url }}"\>
+    <h1>About Me</h1>
+    <p>I'm a programmer, CTO, and a co-founder of <a href="https://fuzzylabs.ai">Fuzzy Labs</a>, a UK tech company helping people productionise machine learning through MLOps.</p>
+    <p>I'm interested in artificial intelligence, bio-inspired computing, IoT / edge, and functional programming.</p>
+    <p>You can read me under <a href="/about">about me</a></p>
+  </section>
+
+  <section class="index-columns">
+    <section class="index-listing">
+      <h2>
+        Recent blog posts
+      </h2>
+      {% set section = get_section(path="blog/_index.md") %}
+      {% for page in section.pages | slice(end=2) %}
+      {{ page_macros::page_listing(page=page) }}
+      {% endfor %}
+      <p class="read-more"><a href="/blog/">more blog posts ≫</a></p>
+    </section>
+  </section>
+
+</main>
 {% endblock content %}
