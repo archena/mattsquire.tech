@@ -4,11 +4,11 @@
 <main id="main" class="index" tabindex="-1">
   <section style="background: #eee; padding: 16px;">
     {% set headshot = resize_image(path="/static/matt-squire.jpg", width=180, op="fit_width") %}
-    <img style="float: right; margin-left: 15px; margin-top: 15px; border-radius: 50%;" src="{{ headshot.url }}"\>
-    <h1>About Me</h1>
+    <img style="float: right; margin-left: 15px; margin-top: 15px; margin-bottom: 15px; border-radius: 50%;" src="{{ headshot.url }}"\>
+    <h1>🐝...🐝🐝🐝</h1>
     <p>I'm a programmer, CTO, and a co-founder of <a href="https://fuzzylabs.ai">Fuzzy Labs</a>, a UK tech company helping people productionise machine learning through MLOps.</p>
     <p>I'm interested in artificial intelligence, bio-inspired computing, IoT / edge, and functional programming.</p>
-    <p>You can read me under <a href="/about">about me</a></p>
+    <p>On this site you'll find my very occasional blog, and information on a few projects</p>
   </section>
 
   <section class="index-columns">
@@ -24,5 +24,9 @@
     </section>
   </section>
 
+  <section>
+    <h1>Contact</h1>
+    <p><small><code>$ echo NmQ2MTc0NzRAbWF0dHNxdWlyZS50ZWNoCg== | base64 -d</code></small></p>
+  </section>
 </main>
 {% endblock content %}
