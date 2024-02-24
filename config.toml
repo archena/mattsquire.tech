@@ -73,6 +73,7 @@ username = ""
 [extra.social]
 github = "archena"
 linkedin = "https://www.linkedin.com/in/matt-squire-a19896125"
+twitter = "mattsquiretech"
 
 # CDN links
 [extra.cdn]
