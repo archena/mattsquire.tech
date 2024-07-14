@@ -72,7 +72,7 @@ username = ""
 # Footer social links; full options listed in macros/social.html
 [extra.social]
 github = "archena"
-linkedin = "https://www.linkedin.com/in/matt-squire-a19896125"
+linkedin = "matt-squire-a19896125"
 twitter = "mattsquiretech"
 
 # CDN links
